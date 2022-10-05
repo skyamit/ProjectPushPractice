@@ -71,10 +71,13 @@
     margin-left:10px;
     border:none;
   }
-  span{
+  .header-link{
     margin:0px;
     font-size: calc(7px + .9vw);
     font-family:monospace;
+  }
+  .header-link:hover{
+    color: #032a69;
   }
   #body{
     background-color:#4153b5;
@@ -83,14 +86,15 @@
     grid-template-columns:60% 40%;
   }
   #songs{
-    display:grid;
     width:98%;
   }
   #history{
   }
   #current-playing{
+    display: grid;
   }
   #queued-songs{
+    display: grid;
   }
   #similar-artist{
   }
@@ -104,6 +108,7 @@
   }
   .song-icon{
     heigth:40px;
+    min-width: 40px;
   }
   .song{
     height:60px;
@@ -116,8 +121,12 @@
     border-width:1px;
     margin-top:5px;
   }
+  .song:hover{
+    background-color: #081f5c;
+  }
   .song-image{
     height:40px;
+    width: 40px;
     padding:5px;
   }
   .song-text{
@@ -167,4 +176,8 @@
   }
   #volume-control{
     width:40%;
+  }
+
+  #footer h3:hover{
+    color: #032a69;
   }
