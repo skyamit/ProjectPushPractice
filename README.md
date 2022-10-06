@@ -1,3 +1,3 @@
 # ProjectPushPractice
 
-To practice git related commands.
+To practice git commands.
