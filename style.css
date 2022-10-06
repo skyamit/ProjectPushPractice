@@ -92,6 +92,7 @@
   }
   #current-playing{
     display: grid;
+    overflow: hidden;
   }
   #queued-songs{
     display: grid;
@@ -103,8 +104,9 @@
   }
 
   #current-song{
-    width:100%;
+    min-width: 100%;
     max-height:400px;
+    min-height: 400px;
   }
   .song-icon{
     heigth:40px;
@@ -131,6 +133,7 @@
   }
   .song-text{
     padding-left:10px;
+    overflow: hidden;
   }
   .song-time{
     margin-left:10%;
